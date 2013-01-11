@@ -4,7 +4,7 @@ zjuthesis-mphil
 本模板适用于计算机学院硕士论文。
 
 * 适用平台与环境
-本模板基于`XeTeX+xeCJK+ctex`，在`Windows 7`, `Linux Mint 13（Ubuntu）`以及`OS X Mountain Lion`上测试通过，建议在`Windows`下使用`CTeX`套装，其他平台使用`TeXLive 2012`，不过需要对`ctex-xecjk-winfonts.def`这个文件作一些修改，本文件夹下有对应的改好的文件。
+本模板基于`XeTeX+xeCJK+ctex`，在`Windows 7`, `Linux Mint 13（Ubuntu）`以及`OS X Mountain Lion`上测试通过，建议在`Windows`下使用`CTeX`套装，其他平台使用`TeXLive 2012`，不过需要对`ctex-xecjk-winfonts.def`这个文件作一些修改（Linux和OS X下还需要安装Windows下的一些对应字体，比如SimSun等），本文件夹下有对应的改好的文件。
 
 - `CTeX`发行版这个文件在`%CTEXDIR%/MiKTeX/tex/latex/ctex/fontset`下，其中`%CTEXDIR%`是`CTeX`的安装目录
 - `TeXLive`下这个文件在这里：`/usr/local/texlive/2012/texmf-dist/tex/latex/ctex/fontset/`（linux和OS X）下，Windows下的类似于这个目录
