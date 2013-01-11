@@ -22,7 +22,4 @@ zjuthesis-mphil
 编辑器可以使用`TeXWorks`。
 
 # A Bit More
-感谢[ThuThesis]以及[zjuthesis]，本模板是在两者基础上调整的，加入了一些新的宏包。
-
-[ThuThesis]:	http://thuthesis.sourceforge.net/	"ThuThesis"
-[zjuthesis]:	http://code.google.com/p/zjuthesistex/  "zjuthesis"
+感谢[ThuThesis](https://github.com/xueruini/thuthesis/  "ThuThesis")以及[zjuthesis](http://code.google.com/p/zjuthesistex/  "zjuthesis")，本模板是在两者基础上调整的，加入了一些新的宏包。
