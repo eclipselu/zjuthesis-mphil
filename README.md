@@ -18,7 +18,7 @@ zjuthesis-mphil
 - Linux和OS X下： `sh typeset.sh`
 
 ## 使用指南
-模板内常用的一些排版用法可以在`样例文件.pdf`中找到，建议参考一些`LaTeX`的教程。
+模板内常用的一些排版用法可以在`Sample Document.pdf`中找到，建议参考一些`LaTeX`的教程。
 编辑器可以使用`TeXWorks`。
 
 # A Bit More

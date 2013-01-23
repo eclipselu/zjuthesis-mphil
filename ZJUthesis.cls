@@ -606,14 +606,16 @@
 % 每一个chapter开始的第一页的页眉页脚样式为plain样式
 \fancypagestyle{plain}{%
   \fancyhf{}% 先清除当前页面的页眉页脚定义，是fancyhdr包中的定义
-  \renewcommand{\headrulewidth}{0pt}%
-  \renewcommand{\footrulewidth}{0pt}%
   \if@twoside
     %\fancyfoot[RO]{\zihao{-5} ~\thepage~}
     %\fancyfoot[LE]{\zihao{-5} ~\thepage~}
+	\fancyhead[L]{\songti\zihao{-5}\ZJU@value@school\ZJU@value@degree\ZJU@label@thesis}
+    \fancyhead[R]{\songti\zihao{-5}\leftmark}
 	\fancyfoot[C]{\zihao{-5} ~\thepage~}
 	\fancyfoot[C]{\zihao{-5} ~\thepage~}
   \else
+	\fancyhead[L]{\songti\zihao{-5}\ZJU@value@school\ZJU@value@degree\ZJU@label@thesis}
+    \fancyhead[R]{\songti\zihao{-5}\leftmark}
     \fancyfoot[C]{\zihao{-5} ~\thepage~}
   \fi
 }
@@ -753,7 +755,8 @@
 
   \setlength{\cftbeforechapskip}{-2pt}
   \setlength{\cftbeforesecskip}{-2pt}
-  \setlength{\cftsecindent}{0pt}
+  %\setlength{\cftsecindent}{0pt}
+  
   \setcounter{tocdepth}{2}
   \addtocontents{toc}{\cftpagenumbersoff{chapter}}
   \tableofcontents
