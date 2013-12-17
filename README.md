@@ -17,6 +17,11 @@ zjuthesis-mphil
 - Windows下：`typeset.bat`
 - Linux和OS X下： `sh typeset.sh`
 
+## 或者
+```bash
+make  # 编译tex文件生成pdf
+make clean # 删除中间文件
+
 ## 使用指南
 模板内常用的一些排版用法可以在`Sample Document.pdf`中找到，建议参考一些`LaTeX`的教程。
 编辑器可以使用`TeXWorks`。
