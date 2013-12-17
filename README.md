@@ -21,6 +21,7 @@ zjuthesis-mphil
 ```bash
 make  # 编译tex文件生成pdf
 make clean # 删除中间文件
+```
 
 ## 使用指南
 模板内常用的一些排版用法可以在`Sample Document.pdf`中找到，建议参考一些`LaTeX`的教程。
