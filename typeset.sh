@@ -4,11 +4,11 @@ SYSTEM=`uname -s`
 
 # typesetting
 echo "1) Typesetting"
-xelatex thesis
-makeindex thesis.idx
-bibtex thesis
-xelatex thesis
-xelatex thesis
+xelatex thesis 2>&1 > /dev/null
+makeindex thesis.idx 2>&1 > /dev/null
+bibtex thesis 2>&1 > /dev/null
+xelatex thesis 2>&1 > /dev/null
+xelatex thesis 2>&1 > /dev/null
 
 # cleaning temporary files
 echo "2) Cleaning temp files"
