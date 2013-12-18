@@ -12,7 +12,7 @@ xelatex thesis 2>&1 > /dev/null
 
 # cleaning temporary files
 echo "2) Cleaning temp files"
-rm *.aux *.bbl *.blg *.idx *.ilg *.ind *.lof *.log *.lot *.out *.toc
+rm -f *.aux *.bbl *.blg *.idx *.ilg *.ind *.lof *.log *.lot *.out *.toc
 
 # preview the pdf
 echo "3) Opening pdf file"
