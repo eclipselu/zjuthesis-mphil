@@ -3,9 +3,9 @@
 %% 本模版是在88TeX版提供的数学系毕业论文模版2006年版基础上
 %% 由王东举于2011年9-10月间修改，欢迎提出修改意见，欢迎在此基础上自行修改尝试
 %% 邮箱：shuwei1204@163.com
-%% 
+%%
 %% 提供该模版的运行基础
-%% 
+%%
 %% 2012年12月-2013年1月间 进行了修改以适合计算机学院的论文模板要求
 %% 模板在Windows下的CTEX发行版2.9.2测试通过，在linux下的TeXLive 2012以及OS X Mountain Lion下的MacTeX 2012下也测试通过
 
@@ -225,11 +225,8 @@
       % 这个尺寸可以更改
       \vspace{10mm}
       % 浙江大学四个字
-      \ifpdf
-        \includegraphics[width=60.3mm]{./CoverPagepic/ZJDX.pdf} \\
-      \else
-        \includegraphics[width=60.3mm]{./CoverPagepic/ZJDX.eps} \\
-      \fi
+      \includegraphics[width=60.3mm]{./CoverPagepic/ZJDX.pdf}
+
       % 这个尺寸可以更改
       \vspace{4mm}
       %% \ZJU@value@school \\  \zihao{-1}
@@ -238,17 +235,13 @@
       % 这个尺寸可以更改
       \vspace{4mm}
       % 这个地方调入浙大徽标
-      \ifpdf
-        \includegraphics[width=22.8mm]{./CoverPagepic/QSY.pdf}    \\
-      \else
-        \includegraphics[width=22.8mm]{./CoverPagepic/QSY.eps}    \\
-      \fi
- 
+      \includegraphics[width=22.8mm]{./CoverPagepic/QSY.pdf}    \\
+
       \vspace{20mm}
 
       % 论文题目部分内容，可以修改
       \begin{tabular}{rl}
-        {\bfseries\fangsong\zihao{3}\ZJU@label@title:} 
+        {\bfseries\fangsong\zihao{3}\ZJU@label@title:}
         &
         \bfseries\fangsong\zihao{-2} \ZJUunderline[260pt]{\ZJU@value@title} \\[3mm]
         &
@@ -258,7 +251,7 @@
         \else
           {\bfseries\fangsong\zihao{-2}\ZJUunderline[260pt]{\ZJU@value@titletl}}
         \fi \\[4mm]
-         % {\bfseries\fangsong\zihao{3}\ZJU@label@Etitle:} 
+         % {\bfseries\fangsong\zihao{3}\ZJU@label@Etitle:}
          % &
          % {\bfseries\zihao{-2}\ZJUunderline[260pt]{\ZJU@value@Etitle}}\\[3mm]
          % &
@@ -270,7 +263,7 @@
          % \fi\\
       \end{tabular}
       % 这个距离可以修改
-      \vspace{15mm}  
+      \vspace{15mm}
       % 左右两边字体不同，定义两个宏AB来简化代码，这个功能用到了array宏包
       \newcolumntype{A}{>{\songti}r<{}}
       \newcolumntype{B}{>{\fangsong}l<{}}
@@ -314,7 +307,7 @@
 	\begin{center}
 	  % 这个尺寸可以更改
       \vspace{10mm}
-	  
+
       %% \ZJU@value@school \\  \zihao{-1}
       % 这个博士学位论文在def文件中已有，当然在tex文件中还可以更改
       \centerline{\songti \zihao{-2}{\ZJU@label@Ethesisu}}
@@ -323,17 +316,13 @@
       % 这个尺寸可以更改
       \vspace{20mm}
       % 这个地方调入浙大徽标
-      \ifpdf
-        \includegraphics[width=22.8mm]{./CoverPagepic/QSY.pdf}    \\
-      \else
-        \includegraphics[width=22.8mm]{./CoverPagepic/QSY.eps}    \\
-      \fi
- 
+      \includegraphics[width=22.8mm]{./CoverPagepic/QSY.pdf}
+
       \vspace{30mm}
 
       % 论文题目部分内容，可以修改
       \begin{tabular}{rl}
-        {\bfseries\fangsong\zihao{3}\ZJU@label@Etitle:} 
+        {\bfseries\fangsong\zihao{3}\ZJU@label@Etitle:}
         &
         {\bfseries\zihao{-2}\ZJUunderline[310pt]{\ZJU@value@Etitle}}\\[3mm]
         &
@@ -344,7 +333,7 @@
           {\bfseries\zihao{-2}\ZJUunderline[310pt]{\ZJU@value@Etitletl}}
         \fi\\[3mm]
 		%英文标题的多行判断，如果两行写不下，有第三行显示，否则不显示第三行
-		&		
+		&
 		\ifx\ZJU@value@Etitletll\undefined
           \hfil
         \else
@@ -352,7 +341,7 @@
         \fi\\[3mm]
       \end{tabular}
       % 这个距离可以修改
-      \vspace{30mm}  
+      \vspace{30mm}
       % 左右两边字体不同，定义两个宏AB来简化代码，这个功能用到了array宏包
       \newcolumntype{A}{>{\songti}r<{}}
       \newcolumntype{B}{>{\fangsong}l<{}}
@@ -407,11 +396,7 @@
       \vspace{15mm}
 
       % 插入浙大徽标
-      \ifpdf
-        \includegraphics[width=22.8mm]{./CoverPagepic/QSY.pdf}    \\
-      \else
-        \includegraphics[width=22.8mm]{./CoverPagepic/QSY.eps}    \\
-      \fi
+      \includegraphics[width=22.8mm]{./CoverPagepic/QSY.pdf}
 
       % 插入空白
       \vspace{12mm}
@@ -419,10 +404,10 @@
 
       \hfil\\
       指导教师签名：\ZJUunderline[120pt]{}\\}
- 
+
       % 插入空白
       \vspace{15mm}
-  
+
       % 评阅人信息
       \newcolumntype{A}{>{\songti\zihao{4}}r}
       \newcolumntype{B}{>{\songti\zihao{4}}c}
@@ -433,7 +418,7 @@
         评阅人4 & \ZJUunderline[260pt]{\ZJU@value@reviewersD}\\[2.2mm]
         评阅人5 & \ZJUunderline[260pt]{\ZJU@value@reviewersE}\\
       \end{tabular}
-    
+
       % 加一段空白
       \vspace{10mm}
 
@@ -476,7 +461,7 @@
   \cleardoublepage
   \thispagestyle{empty}
   {
-    \linespread{1.3} 
+    \linespread{1.3}
     \begin{center}
       % 英文论文题目
       {\bf\zihao{-2}\ZJUunderline[360pt]{\ZJU@value@englishtitle}\\
@@ -492,11 +477,7 @@
       \vspace{7mm}
 
       % 浙大校徽
-      \ifpdf
-        \includegraphics[width=22.8mm]{./CoverPagepic/QSY.pdf}    \\
-      \else
-        \includegraphics[width=22.8mm]{./CoverPagepic/QSY.eps}    \\
-      \fi
+      \includegraphics[width=22.8mm]{./CoverPagepic/QSY.pdf}
 
       % 插入一段空白距离
       \vspace{7mm}
@@ -507,7 +488,7 @@
       % 导师英文签名
       Supervisor's signature:\ZJUunderline[120pt]{}}\\
     \end{center}
-  
+
     % 加入一段空白
     \vspace{7mm}
 
@@ -539,7 +520,7 @@
 
     % 加一段空白
     \vfill
-    % 答辩日期  
+    % 答辩日期
     {\hfill Date of oral defence:\ZJUunderline[150pt]{\ZJU@value@defenddate}\hspace{3em}}
   }
 }
@@ -565,7 +546,7 @@
   \vspace{11ex}
 
   {\songti\zihao{-4}学位论文作者签名：\hspace{8em}
-  签字日期：\hspace{3em}年\hspace{2em}月\hspace{2em}日} 
+  签字日期：\hspace{3em}年\hspace{2em}月\hspace{2em}日}
 
   \vspace{12ex}
 
@@ -695,8 +676,8 @@
 %英文关键字
 \newcommand\englishkeywords[1]{%
   \vspace{2ex}\noindent{\bf \ZJU@label@englishkeywords} #1}
-  
-  
+
+
 %这几行防止目录、图目录以及表目录 出现在目录中
 \renewcommand\tableofcontents{%
 \if@twocolumn
@@ -745,18 +726,18 @@
 
   \renewcommand{\cftsecleader}{\cftdotfill{\cftdot}}
   \renewcommand{\cftsecdotsep}{\cftdotsep}
-  \renewcommand{\cftsecfont}{\songti\zihao{-4}}  
+  \renewcommand{\cftsecfont}{\songti\zihao{-4}}
   \renewcommand{\cftsecpagefont}{\rm\zihao{-4}}
 
   \renewcommand{\cftsubsecleader}{\cftdotfill{\cftdot}}
   \renewcommand{\cftsubsecdotsep}{\cftdotsep}
-  \renewcommand{\cftsubsecfont}{\songti\zihao{-4}}  
+  \renewcommand{\cftsubsecfont}{\songti\zihao{-4}}
   \renewcommand{\cftsubsecpagefont}{\rm\zihao{-4}}
 
   \setlength{\cftbeforechapskip}{-2pt}
   \setlength{\cftbeforesecskip}{-2pt}
   %\setlength{\cftsecindent}{0pt}
-  
+
   \setcounter{tocdepth}{2}
   \addtocontents{toc}{\cftpagenumbersoff{chapter}}
   \tableofcontents
